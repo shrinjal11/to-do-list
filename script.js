@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
             taskList.appendChild(li);
             taskInput.value = "";
 
-            // Add click event to delete task
+
             const deleteButton = li.querySelector(".delete");
             deleteButton.addEventListener("click", function () {
                 taskList.removeChild(li);
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    // Press Enter to add a task
+   
     taskInput.addEventListener("keydown", function (e) {
         if (e.key === "Enter") {
             addTaskButton.click();
