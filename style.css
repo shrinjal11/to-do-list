@@ -59,7 +59,9 @@ li {
 }
 
 .delete {
-    color: #4910b4;
+    color:rgb(99, 76, 80);
     cursor: pointer;
+    font-size: xx-large;
+    font-weight: bold;
     
 }
